@@ -8,14 +8,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
 <meta name="format-detection" content="telephone=no"/>
-<title>💌 Anjala & Shahabas — You're Invited</title>
-<meta name="description" content="Join us as we celebrate the wedding of Anjala & Shahabas · 16th May 2026 · Presidency Convention Center, Perinthalmanna"/>
+<title>💌 Anjala & Mohamed Shahabas — You're Invited</title>
+<meta name="description" content="Join us as we celebrate the wedding of Anjala & Mohamed Shahabas · 16th May 2026 · Presidency Convention Center, Perinthalmanna"/>
 <meta property="og:title" content="💌 Our Wedding Invitation"/>
-<meta property="og:description" content="Anjala & Shahabas · 16th May 2026 · Perinthalmanna, Kerala — We would love your presence."/>
+<meta property="og:description" content="Anjala & Mohamed Shahabas · 16th May 2026 · Perinthalmanna, Kerala — We would love your presence."/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="💌 Our Wedding Invitation"/>
-<meta name="twitter:description" content="Anjala & Shahabas · 16th May 2026 · We would love your presence."/>
+<meta name="twitter:description" content="Anjala & Mohamed Shahabas · 16th May 2026 · We would love your presence."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Cinzel:wght@400;600&display=swap" rel="stylesheet"/>
@@ -653,6 +653,135 @@ text-transform: uppercase;
 margin-top: 0.8rem;
 }
 
+/* ── FORMAL INVITE ── */
+#formal-invite {
+background-color: #FAF7F2;
+text-align: center;
+border-top: 1px solid #DDD5C8;
+border-bottom: 1px solid #DDD5C8;
+padding: 4rem 2rem;
+}
+.bismillah {
+display: block;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
+font-style: italic;
+font-size: 1.05rem;
+color: #8B1A1A;
+letter-spacing: 0.08em;
+line-height: 1.9;
+margin-bottom: 0.3rem;
+}
+.bismillah-arabic {
+display: block;
+font-size: 1.6rem;
+color: #8B1A1A;
+letter-spacing: 0.05em;
+margin-bottom: 2rem;
+line-height: 1.8;
+font-family: Georgia, serif;
+}
+.invite-gold-rule {
+display: block;
+width: 40px; height: 1px;
+background-color: #C9A84C;
+margin: 0 auto 2rem;
+}
+.invite-body-text {
+display: block;
+font-family: ‘Cinzel’, Georgia, serif;
+font-size: 0.58rem;
+letter-spacing: 0.35em;
+color: #5A3E35;
+text-transform: uppercase;
+line-height: 2;
+margin-bottom: 2.2rem;
+}
+.invite-names-box {
+margin: 0 auto;
+max-width: 310px;
+padding: 2rem 1.6rem;
+border: 1px solid #C9A84C;
+position: relative;
+margin-bottom: 2.2rem;
+}
+.invite-names-box::before {
+content: ‘’;
+position: absolute; top: 8px; left: 8px;
+width: 13px; height: 13px;
+border-top: 1px solid #C9A84C;
+border-left: 1px solid #C9A84C;
+}
+.invite-names-box::after {
+content: ‘’;
+position: absolute; bottom: 8px; right: 8px;
+width: 13px; height: 13px;
+border-bottom: 1px solid #C9A84C;
+border-right: 1px solid #C9A84C;
+}
+.invite-person-name {
+display: block;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
+font-style: italic;
+font-size: 1.7rem;
+color: #2C1810;
+line-height: 1.2;
+margin-bottom: 0.4rem;
+}
+.invite-parentage {
+display: block;
+font-family: ‘Cinzel’, Georgia, serif;
+font-size: 0.5rem;
+letter-spacing: 0.3em;
+color: #5A3E35;
+text-transform: uppercase;
+line-height: 2;
+margin-bottom: 1.5rem;
+}
+.invite-weds {
+display: block;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
+font-style: italic;
+font-size: 1.1rem;
+color: #8B1A1A;
+letter-spacing: 0.15em;
+margin-bottom: 1.5rem;
+}
+.invite-nikkah-box {
+display: block;
+margin: 0 auto;
+max-width: 260px;
+padding: 1.4rem 1.4rem;
+background-color: #5C0E0E;
+position: relative;
+}
+.nikkah-label {
+display: block;
+font-family: ‘Cinzel’, Georgia, serif;
+font-size: 0.52rem;
+letter-spacing: 0.4em;
+color: #E8C97A;
+text-transform: uppercase;
+margin-bottom: 0.6rem;
+}
+.nikkah-time {
+display: block;
+font-family: ‘Cormorant Garamond’, Georgia, serif;
+font-style: italic;
+font-size: 2rem;
+color: #FAF7F2;
+line-height: 1.1;
+margin-bottom: 0.4rem;
+}
+.nikkah-venue {
+display: block;
+font-family: ‘Cinzel’, Georgia, serif;
+font-size: 0.5rem;
+letter-spacing: 0.28em;
+color: rgba(232,201,122,0.85);
+text-transform: uppercase;
+line-height: 2;
+}
+
 /* ══ RESPONSIVE ══ */
 
 /* Small phones (< 360px) */
@@ -741,11 +870,10 @@ body { background-color: #FAF7F2; color: #2C1810; }
     <div class="couple-wrap">
       <span class="cname">Anjala</span>
       <span class="camp">&amp;</span>
-      <span class="cname">Shahabas</span>
+      <span class="cname" style="font-size:clamp(2.2rem,9vw,3.8rem);">Mohamed Shahabas</span>
     </div>
     <div class="hero-rule"></div>
     <span class="hero-sub">Together with their families<br>joyfully request the honour of your presence</span>
-    <span class="hero-date">16th May, 2026</span>
     <span class="ornament">— ✦ —</span>
   </section>
 
@@ -770,6 +898,28 @@ body { background-color: #FAF7F2; color: #2C1810; }
       </div>
     </div>
     <span class="reveal-msg" id="revealMsg">We're getting married! 🤍</span>
+  </section>
+
+  <!-- FORMAL INVITE -->
+
+  <section id="formal-invite">
+    <span class="bismillah">In the name of Allah,</span>
+    <span class="bismillah">the Most Gracious, the Most Merciful</span>
+    <span class="bismillah-arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+    <span class="invite-gold-rule"></span>
+    <span class="invite-body-text">With the blessings of the Almighty<br>and the love of both families<br>we joyfully announce the union of</span>
+    <div class="invite-names-box">
+      <span class="invite-person-name">Anjala K</span>
+      <span class="invite-parentage">D/O Shereef K &amp; Mehrunnisa A T</span>
+      <span class="invite-weds">— Weds —</span>
+      <span class="invite-person-name">Mohamed Shahabas</span>
+      <span class="invite-parentage" style="margin-bottom:0">S/O Shakeel C &amp; Khadeeja K T</span>
+    </div>
+    <div class="invite-nikkah-box">
+      <span class="nikkah-label">Nikkah Ceremony</span>
+      <span class="nikkah-time">11 : 00 AM</span>
+      <span class="nikkah-venue">Presidency Convention Center<br>Perinthalmanna, Kerala</span>
+    </div>
   </section>
 
   <!-- COUNTDOWN -->
@@ -851,9 +1001,9 @@ body { background-color: #FAF7F2; color: #2C1810; }
     <span class="gold-rule"></span>
     <div class="fam-box">
       <span class="fam-label">With love, from both families</span>
-      <span class="fam-names">The family of Anjala<br>&amp; the family of Shahabas</span>
+      <span class="fam-names">The family of Anjala<br>&amp; the family of Mohamed Shahabas</span>
     </div>
-    <span class="closing-footer">Anjala &amp; Shahabas</span>
+    <span class="closing-footer">Anjala &amp; Mohamed Shahabas</span>
     <span class="closing-dateline">Saturday · 16th May 2026 · Perinthalmanna</span>
   </section>
 
