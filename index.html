@@ -558,7 +558,7 @@ text-decoration: none !important;
 
 /* ── CLOSING ── */
 #closing {
-background-color: #5C0E0E;
+background-color: #3D0808;
 text-align: center;
 padding-bottom: 6rem;
 }
@@ -655,124 +655,108 @@ margin-top: 0.8rem;
 
 /* ── FORMAL INVITE — Wavy Ribbon Design ── */
 #formal-invite {
-background-color: #FAF7F2;
+background-color: #3D0808;
 text-align: center;
-padding: 4rem 1.5rem;
+padding: 2.5rem 1.5rem;
 position: relative;
 overflow: hidden;
 }
 .ribbon-frame {
 position: relative;
-padding: 3.5rem 1.8rem 4rem;
+padding: 2.5rem 1.8rem 2rem;
 margin: 0 auto;
 max-width: 340px;
 }
 /* Wavy SVG border drawn via inline SVG in HTML */
 .ribbon-bow {
 display: block;
-margin: 0 auto 1.5rem;
-width: 90px;
+margin: 0 auto 0.8rem;
+width: 80px;
+}
+.ribbon-bow path, .ribbon-bow circle {
+stroke: #C9A84C !important;
 }
 .bismillah {
 display: block;
-font-family: ‘Cormorant Garamond’, Georgia, serif;
-font-style: italic;
-font-size: 1rem;
-color: #8B1A1A;
-letter-spacing: 0.08em;
-line-height: 1.9;
-margin-bottom: 0.2rem;
-}
-.bismillah-arabic {
-display: block;
 font-size: 1.5rem;
-color: #8B1A1A;
-margin-bottom: 1.8rem;
-line-height: 1.8;
+color: #E8C97A;
+margin-bottom: 0.7rem;
+line-height: 1.5;
 font-family: Georgia, serif;
+letter-spacing: 0.03em;
 }
+.bismillah-arabic { display: none; }
 .invite-gold-rule {
 display: block;
-width: 40px; height: 1px;
-background-color: #C9A84C;
-margin: 0 auto 1.8rem;
+width: 35px; height: 1px;
+background-color: rgba(232,201,122,0.5);
+margin: 0 auto 1rem;
 }
 .invite-body-text {
 display: block;
 font-family: ‘Cinzel’, Georgia, serif;
 font-size: 0.55rem;
 letter-spacing: 0.32em;
-color: #5A3E35;
+color: rgba(250,247,242,0.6);
 text-transform: uppercase;
-line-height: 2.1;
-margin-bottom: 2rem;
+line-height: 1.9;
+margin-bottom: 1rem;
 }
 .invite-person-name {
 display: block;
 font-family: ‘Cormorant Garamond’, Georgia, serif;
 font-style: italic;
 font-size: 1.7rem;
-color: #2C1810;
-line-height: 1.2;
-margin-bottom: 0.35rem;
+color: #FAF7F2;
+line-height: 1.1;
+margin-bottom: 0.2rem;
 }
 .invite-parentage {
 display: block;
 font-family: ‘Cinzel’, Georgia, serif;
 font-size: 0.48rem;
 letter-spacing: 0.28em;
-color: #5A3E35;
+color: rgba(232,201,122,0.8);
 text-transform: uppercase;
-line-height: 2;
-margin-bottom: 0.2rem;
+line-height: 1.8;
+margin-bottom: 0.1rem;
 }
 .invite-address {
 display: block;
 font-family: ‘Cormorant Garamond’, Georgia, serif;
 font-style: italic;
 font-size: 0.85rem;
-color: #8B6050;
+color: rgba(250,247,242,0.5);
 letter-spacing: 0.05em;
-margin-bottom: 1.5rem;
+margin-bottom: 0.8rem;
 }
 .invite-weds {
 display: block;
 font-family: ‘Cormorant Garamond’, Georgia, serif;
 font-style: italic;
 font-size: 1.1rem;
-color: #8B1A1A;
+color: #C9A84C;
 letter-spacing: 0.15em;
-margin-bottom: 1.5rem;
+margin-bottom: 0.8rem;
 }
 /* Nikkah box */
 .invite-nikkah-box {
 display: block;
-margin: 2.5rem auto 0;
-max-width: 270px;
-padding: 1.5rem 1.4rem;
-background-color: #5C0E0E;
+margin: 0.8rem auto 0;
+max-width: 260px;
+padding: 0.8rem 1.2rem;
+background-color: transparent;
+border: none;
 position: relative;
 }
-.invite-nikkah-box::before {
-content: ‘’;
-position: absolute; top: 6px; left: 6px;
-width: 11px; height: 11px;
-border-top: 1px solid rgba(232,201,122,0.6);
-border-left: 1px solid rgba(232,201,122,0.6);
-}
-.invite-nikkah-box::after {
-content: ‘’;
-position: absolute; bottom: 6px; right: 6px;
-width: 11px; height: 11px;
-border-bottom: 1px solid rgba(232,201,122,0.6);
-border-right: 1px solid rgba(232,201,122,0.6);
-}
+.invite-nikkah-box::before { display: none; }
+.invite-nikkah-box::after { display: none; }
 .nikkah-label {
 display: block;
 font-family: ‘Cinzel’, Georgia, serif;
 font-size: 0.52rem;
 letter-spacing: 0.4em;
-color: #E8C97A;
+color: rgba(232,201,122,0.8);
 text-transform: uppercase;
 margin-bottom: 0.6rem;
 }
@@ -780,7 +764,7 @@ margin-bottom: 0.6rem;
 display: block;
 font-family: ‘Cormorant Garamond’, Georgia, serif;
 font-style: italic;
-font-size: 2rem;
+font-size: 2.4rem;
 color: #FAF7F2;
 line-height: 1.1;
 margin-bottom: 0.4rem;
@@ -790,14 +774,14 @@ display: block;
 font-family: ‘Cinzel’, Georgia, serif;
 font-size: 0.48rem;
 letter-spacing: 0.28em;
-color: rgba(232,201,122,0.85);
+color: rgba(250,247,242,0.55);
 text-transform: uppercase;
 line-height: 2;
 }
 
 /* ── VENUE + LOCATION (combined) ── */
 #venue-location {
-background-color: #5C0E0E;
+background-color: #3D0808;
 color: #FAF7F2;
 text-align: center;
 }
@@ -1094,23 +1078,13 @@ body { background-color: #FAF7F2; color: #2C1810; }
       </svg>
 
 ```
-  <!-- Wavy border around content -->
-  <svg style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible" viewBox="0 0 320 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <!-- top wavy line -->
-    <path d="M10,8 Q30,2 50,8 Q70,14 90,8 Q110,2 130,8 Q150,14 170,8 Q190,2 210,8 Q230,14 250,8 Q270,2 290,8 Q310,14 315,8" stroke="#8B1A1A" stroke-width="1" fill="none" opacity="0.5"/>
-    <!-- bottom wavy line -->
-    <path d="M10,92 Q30,98 50,92 Q70,86 90,92 Q110,98 130,92 Q150,86 170,92 Q190,98 210,92 Q230,86 250,92 Q270,98 290,92 Q310,86 315,92" stroke="#8B1A1A" stroke-width="1" fill="none" opacity="0.5"/>
-    <!-- left wavy line -->
-    <path d="M8,10 Q2,25 8,40 Q14,55 8,70 Q2,85 8,95" stroke="#8B1A1A" stroke-width="1" fill="none" opacity="0.5"/>
-    <!-- right wavy line -->
-    <path d="M312,10 Q318,25 312,40 Q306,55 312,70 Q318,85 312,95" stroke="#8B1A1A" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Wavy border — sized by JS after render -->
+  <svg id="ribbon-svg" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   </svg>
 
-  <span class="bismillah">In the name of Allah,</span>
-  <span class="bismillah">the Most Gracious, the Most Merciful</span>
-  <span class="bismillah-arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+  <span class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
   <span class="invite-gold-rule"></span>
-  <span class="invite-body-text">With the blessings of the Almighty<br>and the love of both families<br>we joyfully announce the union of</span>
+  <span class="invite-body-text">In the name of the Almighty,<br>we announce the union of</span>
 
   <span class="invite-person-name">Anjala K</span>
   <span class="invite-parentage">D/O Shereef K &amp; Mehrunnisa A T</span>
@@ -1122,13 +1096,13 @@ body { background-color: #FAF7F2; color: #2C1810; }
   <span class="invite-parentage">S/O Shakeel C &amp; Khadeeja K T</span>
   <span class="invite-address">Chakkachan House, Puzhakkattiri</span>
 
-</div><!-- end ribbon-frame -->
+  <div class="invite-nikkah-box">
+    <span class="nikkah-label">Nikkah Ceremony</span>
+    <span class="nikkah-time">11 : 00 AM</span>
+    <span class="nikkah-venue">Presidency Convention Center<br>Perinthalmanna, Kerala</span>
+  </div>
 
-<div class="invite-nikkah-box">
-  <span class="nikkah-label">Nikkah Ceremony</span>
-  <span class="nikkah-time">11 : 00 AM</span>
-  <span class="nikkah-venue">Presidency Convention Center<br>Perinthalmanna, Kerala</span>
-</div>
+</div><!-- end ribbon-frame -->
 ```
 
   </section>
@@ -1374,6 +1348,58 @@ body { background-color: #FAF7F2; color: #2C1810; }
     }
   }
 
+  /* ── RIBBON BORDER (dynamic height) ── */
+  function drawRibbon() {
+    var frame = document.querySelector('.ribbon-frame');
+    var svg   = document.getElementById('ribbon-svg');
+    if (!frame || !svg) return;
+
+    var W = frame.offsetWidth;
+    var H = frame.offsetHeight;
+    var amp = 8;   // wave amplitude
+    var seg = 40;  // wave segment length
+
+    function wavyH(y, flip) {
+      // horizontal wavy line at height y
+      var d = 'M 10,' + y;
+      var x = 10;
+      var toggle = flip ? 1 : -1;
+      while (x < W - 20) {
+        var nx = Math.min(x + seg, W - 10);
+        var mx = (x + nx) / 2;
+        d += ' Q ' + mx + ',' + (y + toggle * amp) + ' ' + nx + ',' + y;
+        toggle *= -1;
+        x = nx;
+      }
+      return d;
+    }
+
+    function wavyV(x, flip) {
+      // vertical wavy line at x
+      var d = 'M ' + x + ',20';
+      var y = 20;
+      var toggle = flip ? 1 : -1;
+      while (y < H - 20) {
+        var ny = Math.min(y + seg, H - 20);
+        var my = (y + ny) / 2;
+        d += ' Q ' + (x + toggle * amp) + ',' + my + ' ' + x + ',' + ny;
+        toggle *= -1;
+        y = ny;
+      }
+      return d;
+    }
+
+    var stroke = '#C9A84C';
+    var sw     = '1.2';
+    var op     = '0.55';
+
+    svg.innerHTML =
+      '<path d="' + wavyH(10, false)    + '" stroke="' + stroke + '" stroke-width="' + sw + '" fill="none" opacity="' + op + '"/>' +
+      '<path d="' + wavyH(H - 10, true) + '" stroke="' + stroke + '" stroke-width="' + sw + '" fill="none" opacity="' + op + '"/>' +
+      '<path d="' + wavyV(10, false)    + '" stroke="' + stroke + '" stroke-width="' + sw + '" fill="none" opacity="' + op + '"/>' +
+      '<path d="' + wavyV(W - 10, true) + '" stroke="' + stroke + '" stroke-width="' + sw + '" fill="none" opacity="' + op + '"/>';
+  }
+
   /* ── INIT ── */
   function init() {
     initScratch('c0');
@@ -1382,6 +1408,9 @@ body { background-color: #FAF7F2; color: #2C1810; }
     tick();
     setInterval(tick, 1000);
     initScrollFade();
+    // Draw ribbon after fonts & layout settle
+    setTimeout(drawRibbon, 300);
+    window.addEventListener('resize', drawRibbon);
   }
 
   if (document.readyState === 'loading') {
